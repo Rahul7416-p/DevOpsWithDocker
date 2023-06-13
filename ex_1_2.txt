@@ -1,0 +1,31 @@
+Script started on 2023-05-26 22:07:11+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="237" LINES="63"]
+Part-1 $ docker ps -a
+CONTAINER ID   IMAGE	 COMMAND		  CREATED	   STATUS			 PORTS	   NAMES
+190112d5bff6   nginx	 "/docker-entrypoint.…"	  10 minutes ago   Exited (0) 9 minutes ago		   ecstatic_nash
+939b436c6176   nginx	 "/docker-entrypoint.…"	  10 minutes ago   Exited (0) 9 minutes ago		   compassionate_elgamal
+f6529abefb89   nginx	 "/docker-entrypoint.…"	  10 minutes ago   Exited (255) 26 seconds ago	 80/tcp	   modest_shirley
+Part-1 $ docker rm 190 939 f65
+190
+939
+f65
+Part-1 $ docker images
+REPOSITORY   TAG       IMAGE ID	      CREATED	     SIZE
+nginx	     latest    f9c14fe76d50   42 hours ago   143MB
+Part-1 $ docker rmi f9c
+Untagged: nginx:latest
+Untagged: nginx@sha256:af296b188c7b7df99ba960ca614439c99cb7cf252ed7bbc23e90cfda59092305
+Deleted: sha256:f9c14fe76d502861ba0939bc3189e642c02e257f06f4c0214b1f8ca329326cda
+Deleted: sha256:419f8948c50c723f2a5ac74428af3d804b5d0079d6df8f7f827663cf10cbc366
+Deleted: sha256:1030aac4f1a8096ed58d3d4a2df55dd1b1b27d919ad156d97ad1f68081d0051a
+Deleted: sha256:7d90b49d96c3036539ef144ecc27c01de03902d8ea166a0f7b77d11d3779c4bd
+Deleted: sha256:551acb210764654af31b6cd51adaa74edc9a202587c3395fe0e9f95a2e097f8b
+Deleted: sha256:3c530958db4c75c6fb409f339367aaf9a1e163c84718c035d4b09bebc83f43e7
+Deleted: sha256:8cbe4b54fa88d8fc0198ea0cc3a5432aea41573e6a0ee26eca8c79f9fbfa40e3
+Part-1 $ docker ps -a
+CONTAINER ID   IMAGE	 COMMAND   CREATED   STATUS    PORTS	 NAMES
+Part-1 $ docker images
+REPOSITORY   TAG       IMAGE ID	  CREATED   SIZE
+Part-1 $ ?2004l
+exit
+
+Script done on 2023-05-26 22:08:41+05:30 [COMMAND_EXIT_CODE="0"]

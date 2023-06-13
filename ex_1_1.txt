@@ -1,0 +1,24 @@
+Script started on 2023-05-26 21:56:44+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="211" LINES="50"]
+Part-1 $ docker run -d ngiKnx
+f6529abefb89bf91d6fd5c2c536c3a5e20ce848a213f22f51caba1a92a2d91bb
+Part-1 $ docker run -d nginx
+939b436c617691feeea459b38ab586dd7f6c9300df69a9757bfbc35e0de9eb93
+Part-1 $ docker run -d nginx
+190112d5bff6f7ebb121f8b1014d0c58c1bf8b61501deaba08b825ae52f7fe9c
+Part-1 $ docker ps -a
+CONTAINER ID   IMAGE	 COMMAND		  CREATED	   STATUS	   PORTS     NAMES
+190112d5bff6   nginx	 "/docker-entrypoint.…"	  16 seconds ago   Up 15 seconds   80/tcp    ecstatic_nash
+939b436c6176   nginx	 "/docker-entrypoint.…"	  19 seconds ago   Up 18 seconds   80/tcp    compassionate_elgamal
+f6529abefb89   nginx	 "/docker-entrypoint.…"	  22 seconds ago   Up 21 seconds   80/tcp    modest_shirley
+Part-1 $ docker stop 190 939
+19004l
+939
+Part-1 $ docker ps -a
+CONTAINER ID   IMAGE	 COMMAND		  CREATED	       STATUS			   PORTS     NAMES
+190112d5bff6   nginx	 "/docker-entrypoint.…"	  About a minute ago   Exited (0) 22 seconds ago	     ecstatic_nash
+939b436c6176   nginx	 "/docker-entrypoint.…"	  About a minute ago   Exited (0) 22 seconds ago	     compassionate_elgamal
+f6529abefb89   nginx	 "/docker-entrypoint.…"	  About a minute ago   Up About a minute	   80/tcp    modest_shirley
+Part-1 $ ?2004l
+exit
+
+Script done on 2023-05-26 21:58:27+05:30 [COMMAND_EXIT_CODE="0"]

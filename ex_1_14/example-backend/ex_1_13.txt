@@ -1,0 +1,26 @@
+Script started on 2023-06-10 12:54:32+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="117" LINES="63"]
+example-backend $ docker build . -t example-backend && docker run -p 8080:8080 example-backend
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET	   /ping		     --> server/router.pingpong (4 handlers)
+[GIN-debug] GET	   /messages		     --> server/controller.GetMessages (4 handlers)
+[GIN-debug] POST   /messages		     --> server/controller.CreateMessage (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^Cexample-backend $ exit
+exit4l
+
+Script done on 2023-06-10 12:55:04+05:30 [COMMAND_EXIT_CODE="2"]

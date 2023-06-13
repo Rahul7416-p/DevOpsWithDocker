@@ -1,0 +1,35 @@
+Script started on 2023-05-28 10:59:35+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="117" LINES="63"]
+
+Part-1 $ docker pull -q devopsdockeruh/simple-web-service:ubuntu
+docker.io/devopsdockeruh/simple-web-service:ubuntu
+Part-1 $ docker pull -q devopsdockeruh/simple-web-service:alpine
+docker.io/devopsdockeruh/simple-web-service:alpine
+Part-1 $ docker images
+REPOSITORY			    TAG	      IMAGE ID	     CREATED	   SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 years ago   15.7MB
+docker run -dit --rm --name alpine-server devopsdockeruh/simple-web-service:alpine
+a04f3d87336394f44c7772d023050ac5e3933f4d4e702038b4ffcdb5431dd444
+Part-1 $ docker Kexec -tKit slKalpine-server sh
+/usr/src/app # taili-f-./text.log J
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-05-28 05:33:53 +0000 UTC
+2023-05-28 05:33:55 +0000 UTC
+2023-05-28 05:33:57 +0000 UTC
+2023-05-28 05:33:59 +0000 UTC
+2023-05-28 05:34:01 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-05-28 05:34:03 +0000 UTC
+2023-05-28 05:34:05 +0000 UTC
+2023-05-28 05:34:07 +0000 UTC
+2023-05-28 05:34:09 +0000 UTC
+2023-05-28 05:34:11 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-05-28 05:34:13 +0000 UTC
+2023-05-28 05:34:15 +0000 UTC
+^C
+/usr/src/app # 
+Part-1 $ 
+exit
+
+Script done on 2023-05-28 11:04:30+05:30 [COMMAND_EXIT_CODE="130"]
