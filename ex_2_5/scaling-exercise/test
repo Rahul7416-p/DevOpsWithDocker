@@ -1,0 +1,111 @@
+Script started on 2023-06-15 02:01:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="117" LINES="63"]
+[?2004hscaling-exercise $ docker compose up rm -f 7bf3bb5 7bf ce[10Pps -als[Kcd /mnt/z/DevOpsWithDocker/Part-2/ex_2_2/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexec tail[Kcd /mnt/z/DevOpsWithDocker/Part-2/ex_2_2/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kdocker ps -arm -f b5 7bf ce[4P7bf3bcompose up [Kdocker compose up rm -f 7bf3bb5 7bf ce[10Pps -als[Kcd /mnt/z/DevOpsWithDocker/Part-2/ex_2_2/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexec tail[Kbash--help[Kdocker ps -a [5@compose up[C[6@code docker-compose.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pdocker compose up[C[6@code docker-compose.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pdocker compose up[C[6@code docker-compose.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pdocker compose up[C[6@code docker-compose.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ex_2_1/..[Kdocker run -it -d --name rahul1 -p 8000:8000 --rm devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K run -it -d --name rahul1 -p 8000:8000 --rm devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kex_2_1/ls[Kcode docker-compose.yml [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pdocker compose up[C[6@code docker-compose.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pdocker compose up[C[6@code docker-compose.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pdocker compose up[C[5Pps -a[Cexec[K --help[2Pbashtailcd /mnt/z/DevOpsWithDocker/Part-2/ex_2_2/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kdocker ps -arm -f b5 7bf ce[4P7bf3bcompose up [Kdocker compose up -d --scale compute/[K=3
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/0)                                                                                              
+[?25h[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠋ Container calculator                  Creating                                                               [34m0.0s [0m
+ ⠋ Container scaling-exercise-compute-3  Creating                                                               [34m0.0s [0m
+ ⠋ Container load-balancer               Creating                                                               [34m0.0s [0m
+ ⠋ Container scaling-exercise-compute-2  Creating                                                               [34m0.0s [0m
+ ⠋ Container scaling-exercise-compute-1  Creating                                                               [34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠙ Container calculator                  Creating                                                               [34m0.1s [0m
+ ⠙ Container scaling-exercise-compute-3  Creating                                                               [34m0.1s [0m
+ ⠙ Container load-balancer               Creating                                                               [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mCreated[0m                                                                [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠿ Container calculator                  Starting                                                               [34m0.2s [0m
+ ⠿ Container scaling-exercise-compute-3  Starting                                                               [34m0.2s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.3s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mCreated[0m                                                                [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠿ Container calculator                  Starting                                                               [34m0.3s [0m
+ ⠿ Container scaling-exercise-compute-3  Starting                                                               [34m0.3s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.3s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mCreated[0m                                                                [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠿ Container calculator                  Starting                                                               [34m0.4s [0m
+ ⠿ Container scaling-exercise-compute-3  Starting                                                               [34m0.4s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.4s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mCreated[0m                                                                [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠿ Container calculator                  Starting                                                               [34m0.5s [0m
+ ⠿ Container scaling-exercise-compute-3  Starting                                                               [34m0.5s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.5s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mCreated[0m                                                                [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠿ Container calculator                  Starting                                                               [34m0.6s [0m
+ ⠿ Container scaling-exercise-compute-3  Starting                                                               [34m0.6s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.6s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mCreated[0m                                                                [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠿ Container calculator                  Starting                                                               [34m0.7s [0m
+ ⠿ Container scaling-exercise-compute-3  Starting                                                               [34m0.7s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.7s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mCreated[0m                                                                [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ ⠿ Container calculator                  Starting                                                               [34m0.8s [0m
+ [32m✔[0m Container scaling-exercise-compute-3  [32mStarted[0m                                                                [34m0.8s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.8s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ ⠿ Container scaling-exercise-compute-1  Starting                                                               [34m0.8s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ [32m✔[0m Container calculator                  [32mStarted[0m                                                                [34m0.9s [0m
+ [32m✔[0m Container scaling-exercise-compute-3  [32mStarted[0m                                                                [34m0.8s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m0.9s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ ⠿ Container scaling-exercise-compute-1  Starting                                                               [34m0.9s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ [32m✔[0m Container calculator                  [32mStarted[0m                                                                [34m0.9s [0m
+ [32m✔[0m Container scaling-exercise-compute-3  [32mStarted[0m                                                                [34m0.8s [0m
+ ⠿ Container load-balancer               Starting                                                               [34m1.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ ⠿ Container scaling-exercise-compute-1  Starting                                                               [34m1.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 5/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ [32m✔[0m Container calculator                  [32mStarted[0m                                                                [34m0.9s [0m
+ [32m✔[0m Container scaling-exercise-compute-3  [32mStarted[0m                                                                [34m0.8s [0m
+ [32m✔[0m Container load-balancer               [32mStarted[0m                                                                [34m1.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ ⠿ Container scaling-exercise-compute-1  Starting                                                               [34m1.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 5/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ [32m✔[0m Container calculator                  [32mStarted[0m                                                                [34m0.9s [0m
+ [32m✔[0m Container scaling-exercise-compute-3  [32mStarted[0m                                                                [34m0.8s [0m
+ [32m✔[0m Container load-balancer               [32mStarted[0m                                                                [34m1.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ ⠿ Container scaling-exercise-compute-1  Starting                                                               [34m1.2s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 5/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ [32m✔[0m Container calculator                  [32mStarted[0m                                                                [34m0.9s [0m
+ [32m✔[0m Container scaling-exercise-compute-3  [32mStarted[0m                                                                [34m0.8s [0m
+ [32m✔[0m Container load-balancer               [32mStarted[0m                                                                [34m1.1s [0m
+ [32m✔[0m Container scaling-exercise-compute-2  [32mCreated[0m                                                                [34m0.1s [0m
+ ⠿ Container scaling-exercise-compute-1  Starting                                                               [34m1.3s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 5/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ [32m✔[0m Container calculator                  [32mStarted[0m                                                                [34m0.9s [0m
+ [32m✔[0m Container scaling-exercise-compute-3  [32mStarted[0m                                                                [34m0.8s [0m
+ [32m✔[0m Container load-balancer               [32mStarted[0m                                                                [34m1.1s [0m
+ ⠿ Container scaling-exercise-compute-2  Starting                                                               [34m1.4s [0m
+ [32m✔[0m Container scaling-exercise-compute-1  [32mStarted[0m                                                                [34m1.4s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 5/6
+ [32m✔[0m Network scaling-exercise_default      [32mCreated[0m                                                                [34m0.0s [0m
+ [32m✔[0m Container calculator                  [32mStarted[0m

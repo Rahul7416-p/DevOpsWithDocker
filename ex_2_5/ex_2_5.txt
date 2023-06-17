@@ -1,0 +1,112 @@
+Script started on 2023-06-15 02:01:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="117" LINES="63"]
+
+docker compose up -d --scale compute=3 
+
+[+] Building 0.0s [+] Running 1/0
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠋ Container calculator			 Creating								34m0.0s 0m
+ ⠋ Container scaling-exercise-compute-3	 Creating								34m0.0s 0m
+ ⠋ Container load-balancer		 Creating								34m0.0s 0m
+ ⠋ Container scaling-exercise-compute-2	 Creating								34m0.0s 0m
+ ⠋ Container scaling-exercise-compute-1	 Creating								34m0.0s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠙ Container calculator			 Creating								34m0.1s 0m
+ ⠙ Container scaling-exercise-compute-3	 Creating								34m0.1s 0m
+ ⠙ Container load-balancer		 Creating								34m0.1s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+  Container scaling-exercise-compute-1  32mCreated0m								  34m0.1s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠿ Container calculator			 Starting								34m0.2s 0m
+ ⠿ Container scaling-exercise-compute-3	 Starting								34m0.2s 0m
+ ⠿ Container load-balancer		 Starting								34m0.3s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+  Container scaling-exercise-compute-1  32mCreated0m								  34m0.1s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠿ Container calculator			 Starting								34m0.3s 0m
+ ⠿ Container scaling-exercise-compute-3	 Starting								34m0.3s 0m
+ ⠿ Container load-balancer		 Starting								34m0.3s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+  Container scaling-exercise-compute-1  32mCreated0m								  34m0.1s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠿ Container calculator			 Starting								34m0.4s 0m
+ ⠿ Container scaling-exercise-compute-3	 Starting								34m0.4s 0m
+ ⠿ Container load-balancer		 Starting								34m0.4s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+  Container scaling-exercise-compute-1  32mCreated0m								  34m0.1s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠿ Container calculator			 Starting								34m0.5s 0m
+ ⠿ Container scaling-exercise-compute-3	 Starting								34m0.5s 0m
+ ⠿ Container load-balancer		 Starting								34m0.5s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+  Container scaling-exercise-compute-1  32mCreated0m								  34m0.1s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠿ Container calculator			 Starting								34m0.6s 0m
+ ⠿ Container scaling-exercise-compute-3	 Starting								34m0.6s 0m
+ ⠿ Container load-balancer		 Starting								34m0.6s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+  Container scaling-exercise-compute-1  32mCreated0m								  34m0.1s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠿ Container calculator			 Starting								34m0.7s 0m
+ ⠿ Container scaling-exercise-compute-3	 Starting								34m0.7s 0m
+ ⠿ Container load-balancer		 Starting								34m0.7s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+  Container scaling-exercise-compute-1  32mCreated0m								  34m0.1s 0m
+[+] Running 3/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+ ⠿ Container calculator			 Starting								34m0.8s 0m
+  Container scaling-exercise-compute-3  32mStarted0m								  34m0.8s 0m
+ ⠿ Container load-balancer		 Starting								34m0.8s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+ ⠿ Container scaling-exercise-compute-1	 Starting								34m0.8s 0m
+[+] Running 4/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+  Container calculator		      32mStarted0m								  34m0.9s 0m
+  Container scaling-exercise-compute-3  32mStarted0m								  34m0.8s 0m
+ ⠿ Container load-balancer		 Starting								34m0.9s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+ ⠿ Container scaling-exercise-compute-1	 Starting								34m0.9s 0m
+[+] Running 4/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+  Container calculator		      32mStarted0m								  34m0.9s 0m
+  Container scaling-exercise-compute-3  32mStarted0m								  34m0.8s 0m
+ ⠿ Container load-balancer		 Starting								34m1.0s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+ ⠿ Container scaling-exercise-compute-1	 Starting								34m1.0s 0m
+[+] Running 5/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+  Container calculator		      32mStarted0m								  34m0.9s 0m
+  Container scaling-exercise-compute-3  32mStarted0m								  34m0.8s 0m
+  Container load-balancer		      32mStarted0m								  34m1.1s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+ ⠿ Container scaling-exercise-compute-1	 Starting								34m1.1s 0m
+[+] Running 5/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+  Container calculator		      32mStarted0m								  34m0.9s 0m
+  Container scaling-exercise-compute-3  32mStarted0m								  34m0.8s 0m
+  Container load-balancer		      32mStarted0m								  34m1.1s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+ ⠿ Container scaling-exercise-compute-1	 Starting								34m1.2s 0m
+[+] Running 5/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+  Container calculator		      32mStarted0m								  34m0.9s 0m
+  Container scaling-exercise-compute-3  32mStarted0m								  34m0.8s 0m
+  Container load-balancer		      32mStarted0m								  34m1.1s 0m
+  Container scaling-exercise-compute-2  32mCreated0m								  34m0.1s 0m
+ ⠿ Container scaling-exercise-compute-1	 Starting								34m1.3s 0m
+[+] Running 5/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+  Container calculator		      32mStarted0m								  34m0.9s 0m
+  Container scaling-exercise-compute-3  32mStarted0m								  34m0.8s 0m
+  Container load-balancer		      32mStarted0m								  34m1.1s 0m
+ ⠿ Container scaling-exercise-compute-2	 Starting								34m1.4s 0m
+  Container scaling-exercise-compute-1  32mStarted0m								  34m1.4s 0m
+[+] Running 5/6
+  Network scaling-exercise_default      32mCreated0m								  34m0.0s 0m
+  Container calculator		      32mStarted0m
