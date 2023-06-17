@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build: /mnt/z/DevOpsWithDocker/Part-2/ex_2_3/example-frontend/.
+    ports:
+      - "5000:5000"
+  backend:
+    build: /mnt/z/DevOpsWithDocker/Part-2/ex_2_3/example-backend/.
+    ports:
+      - "8080:8080"
