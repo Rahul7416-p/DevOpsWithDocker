@@ -1,0 +1,17 @@
+Script started on 2023-06-17 18:16:29+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="117" LINES="63"]
+
+$ docker run -it --rm --network host networkstatic/nmap localhost
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-06-17 12:47 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000090s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 994 closed tcp ports (reset)
+PORT	 STATE	  SERVICE
+80/tcp	 filtered http
+111/tcp	 open	  rpcbind
+2381/tcp open	  compaq-https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.44 seconds
+$ exit
+
+Script done on 2023-06-17 18:18:07+05:30 [COMMAND_EXIT_CODE="0"]
